@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.counter {
+    position: relative;
+    place-items: center;
+    border: 10px double white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px grey;
+    min-height: 50vh;
+    display: grid;
+    width: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+}
+
+.counter-name {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    top: 15px;
+}
+
+.number {
+    color: white;
+    font-size: 150px;
+}
+
+button {
+    position: relative;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 5px;
+    bottom: 15px;
+}

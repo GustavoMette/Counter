@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="counter" >
+        <h1 class="counter-name">CONTADOR</h1>
+        <p class="number">0</p>
+        <button onclick="adicionar()">Adicionar</button>
+        <button onclick="diminuir()">Diminuir</button>
+    </div>
+</body>
+<script>
+    let numero = 0;
+    function adicionar() {
+        numero = numero + 1
+        render()
+    }
+    function diminuir() {
+        numero = numero - 1
+        render()
+    }
+    function render() {
+        const p = document.querySelector(".number")
+        p.innerText = numero
+    }
+        render() 
+</script>
+</html>
