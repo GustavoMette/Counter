@@ -1,1 +1,1 @@
-# Contador Básico
+# Contador Básico feito com JavaScript
