@@ -4,9 +4,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="counter" >
-        <h1 class="counter-name">CONTADOR</h1>
-        <p class="number">0</p>
+    <div id="counter" >
+        <h1 id="counter-name">CONTADOR</h1>
+        <p id="number">0</p>
         <button onclick="adicionar()">Adicionar</button>
         <button onclick="diminuir()">Diminuir</button>
     </div>
@@ -22,7 +22,7 @@
         render()
     }
     function render() {
-        const p = document.querySelector(".number")
+        const p = document.querySelector("#number")
         p.innerText = numero
     }
         render() 
